@@ -51,11 +51,13 @@
         </dependency>
 
         <!-- Optional, for bootstrap -->
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>bootstrap</artifactId>
-            <version>${bootstrap.version}</version>
-        </dependency>
+       <!-- https://mvnrepository.com/artifact/org.webjars/bootstrap -->
+<dependency>
+    <groupId>org.webjars</groupId>
+    <artifactId>bootstrap</artifactId>
+    <version>5.0.1</version>
+</dependency>
+
     </dependencies>
 
     <build>
